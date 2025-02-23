@@ -1,0 +1,460 @@
+{
+    "gameLevels": [
+        {
+            "id": "home",
+            "name": "Home",
+            "description": "Start your journey at home.",
+            "backgroundImage": "home",
+            "unlocked": true,
+            "questions": [
+                {
+                    "text": "What is the most effective way to save water while brushing your teeth?",
+                    "options": [
+                        { "id": "opt1", "text": "Let the water run the whole time", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt2", "text": "Turn off the tap while brushing", "isCorrect": true, "carbonImpact": -200 },
+                        { "id": "opt3", "text": "Brush for 10 minutes", "isCorrect": false, "carbonImpact": 40 },
+                        { "id": "opt4", "text": "Use hot water for brushing", "isCorrect": false, "carbonImpact": 30 }
+                    ],
+                    "explanation": "Turning off the tap while brushing can save up to 4 gallons of water each time!",
+                    "backgroundImage": "home_1",
+                    "factTitle": "Water Saving Tip",
+                    "interestingFact": "A running tap wastes about 2 gallons of water per minute.",
+                    "impactCategory": "Water Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "What is the best way to save energy when using electronics?",
+                    "options": [
+                        { "id": "opt5", "text": "Charge devices overnight", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt6", "text": "Leave devices on standby mode", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt7", "text": "Unplug devices when not in use", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt8", "text": "Use the highest brightness settings", "isCorrect": false, "carbonImpact": 50 }
+                    ],
+                    "explanation": "Unplugging devices stops 'phantom energy' use, which can save energy and money.",
+                    "backgroundImage": "home_2",
+                    "factTitle": "Energy Saving Tip",
+                    "interestingFact": "Standby power can account for up to 10% of a home's energy use.",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "How can you reduce food waste when packing your lunch?",
+                    "options": [
+                        { "id": "opt9", "text": "Throw away leftovers", "isCorrect": false, "carbonImpact": 150 },
+                        { "id": "opt10", "text": "Pack extra food just in case", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt11", "text": "Use disposable containers", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt12", "text": "Pack only what you can eat", "isCorrect": true, "carbonImpact": -250 }
+                    ],
+                    "explanation": "Packing the right amount of food reduces waste and saves resources.",
+                    "backgroundImage": "home_3",
+                    "factTitle": "Food Waste Tip",
+                    "interestingFact": "Globally, 1/3 of all food produced is wasted, contributing to greenhouse gases.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "What is the best way to reduce plastic waste when shopping?",
+                    "options": [
+                        { "id": "opt13", "text": "Buy individually wrapped items", "isCorrect": false, "carbonImpact": 150 },
+                        { "id": "opt14", "text": "Ignore packaging waste", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt15", "text": "Bring reusable bags", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt16", "text": "Use plastic bags every time", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Reusable bags reduce the need for single-use plastics, which harm the environment.",
+                    "backgroundImage": "home_4",
+                    "factTitle": "Plastic Waste Tip",
+                    "interestingFact": "A single reusable bag can replace hundreds of plastic bags over its lifetime.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "How can you save water when washing dishes?",
+                    "options": [
+                        { "id": "opt17", "text": "Use hot water for every dish", "isCorrect": false, "carbonImpact": 30 },
+                        { "id": "opt18", "text": "Fill the sink instead of running water", "isCorrect": true, "carbonImpact": -200 },
+                        { "id": "opt19", "text": "Let the water run while scrubbing", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt20", "text": "Wash dishes one by one under running water", "isCorrect": false, "carbonImpact": 40 }
+                    ],
+                    "explanation": "Filling the sink uses less water than letting the tap run continuously.",
+                    "backgroundImage": "home_5",
+                    "factTitle": "Water Saving Tip",
+                    "interestingFact": "A running tap can waste up to 4 gallons of water per minute.",
+                    "impactCategory": "Water Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "What is the best way to reduce energy use with your laundry?",
+                    "options": [
+                        { "id": "opt21", "text": "Dry clothes on high heat", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt22", "text": "Run half-empty loads", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt23", "text": "Wash clothes in cold water", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt24", "text": "Use hot water for every load", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Washing in cold water saves energy and is often just as effective.",
+                    "backgroundImage": "home_6",
+                    "factTitle": "Energy Saving Tip",
+                    "interestingFact": "90% of the energy used by washing machines goes to heating water.",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "How can you reduce waste when using paper?",
+                    "options": [
+                        { "id": "opt25", "text": "Print everything in color", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt26", "text": "Use new paper for every draft", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt27", "text": "Throw away paper after one use", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt28", "text": "Use both sides of the paper", "isCorrect": true, "carbonImpact": -200 }
+                    ],
+                    "explanation": "Using both sides of the paper cuts paper waste in half!",
+                    "backgroundImage": "home_7",
+                    "factTitle": "Paper Waste Tip",
+                    "interestingFact": "Recycling one ton of paper saves 17 trees and 7,000 gallons of water.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "school",
+            "name": "School",
+            "description": "Learn eco-friendly habits at school.",
+            "backgroundImage": "school",
+            "unlocked": true,
+            "questions": [
+                {
+                    "text": "What is the best way to reduce paper waste in class?",
+                    "options": [
+                        { "id": "opt29", "text": "Use new paper for every note", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt30", "text": "Throw away paper after one use", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt31", "text": "Use both sides of the paper", "isCorrect": true, "carbonImpact": -200 },
+                        { "id": "opt32", "text": "Print everything, even drafts", "isCorrect": false, "carbonImpact": 50 }
+                    ],
+                    "explanation": "Using both sides of the paper can cut paper waste in half!",
+                    "backgroundImage": "school_1",
+                    "factTitle": "Paper Waste Tip",
+                    "interestingFact": "Producing one ton of paper requires 24,000 gallons of water.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "How can you effectively save energy in the classroom?",
+                    "options": [
+                        { "id": "opt33", "text": "Leave fans and lights on during lunch breaks or when the class is empty", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt34", "text": "Switch off fans and lights when leaving the classroom, even for short periods", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt35", "text": "Open blinds and use natural light instead of relying solely on electric lights", "isCorrect": true, "carbonImpact": -200 },
+                        { "id": "opt36", "text": "Ask the teacher to keep the AC on full blast, even when it's not very hot", "isCorrect": false, "carbonImpact": 150 }
+                    ],
+                    "explanation": "Remembering to switch off fans and lights when the classroom is empty, and using natural light, makes a real difference in energy conservation. Every student can help!",
+                    "backgroundImage": "school_2",
+                    "factTitle": "Energy Saving Tip for Students",
+                    "interestingFact": "If every student in your grade switched off the classroom fan during lunch breaks, you could save enough energy to power the school's hallway lights for an entire afternoon!",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "What is the best way to promote recycling at school?",
+                    "options": [
+                        { "id": "opt37", "text": "Use disposable items", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt38", "text": "Throw everything in the trash", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt39", "text": "Set up recycling bins", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt40", "text": "Ignore recycling programs", "isCorrect": false, "carbonImpact": 75 }
+                    ],
+                    "explanation": "Recycling bins make it easy for students to recycle.",
+                    "backgroundImage": "school_3",
+                    "factTitle": "Recycling Tip",
+                    "interestingFact": "Recycling one aluminum can saves enough energy to power a TV for three hours.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "How can you reduce water waste at school?",
+                    "options": [
+                        { "id": "opt41", "text": "Let water run while washing hands", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt42", "text": "Inform about leaky faucets for them to be fixed", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt43", "text": "Use excessive water for cleaning", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt44", "text": "Ignore leaks", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Fixing leaks can save thousands of gallons of water each year.",
+                    "backgroundImage": "school_4",
+                    "factTitle": "Water Saving Tip",
+                    "interestingFact": "A single leaky faucet can waste 3,000 gallons of water per year.",
+                    "impactCategory": "Water Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "What is the best way to reduce waste during lunch?",
+                    "options": [
+                        { "id": "opt45", "text": "Ignore food waste", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt46", "text": "Use disposable packaging", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt47", "text": "Throw away uneaten food", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt48", "text": "Use reusable containers", "isCorrect": true, "carbonImpact": -250 }
+                    ],
+                    "explanation": "Reusable containers reduce waste and are better for the environment.",
+                    "backgroundImage": "school_5",
+                    "factTitle": "Waste Reduction Tip",
+                    "interestingFact": "A single reusable container can replace hundreds of disposable ones.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "How can you save energy when using computers at school?",
+                    "options": [
+                        { "id": "opt49", "text": "Ignore energy-saving settings", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt50", "text": "Leave computers on all day", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt51", "text": "Turn off computers when not in use", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt52", "text": "Use screensavers instead of turning off", "isCorrect": false, "carbonImpact": 75 }
+                    ],
+                    "explanation": "Turning off computers saves energy and extends their lifespan.",
+                    "backgroundImage": "school_6",
+                    "factTitle": "Energy Saving Tip",
+                    "interestingFact": "A computer left on 24/7 can cost up to $50 in electricity annually.",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 1
+                },
+                {
+                    "text": "What is the best way to reduce plastic waste in the cafeteria?",
+                    "options": [
+                        { "id": "opt53", "text": "Throw away reusable items", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt54", "text": "Use disposable plastic utensils", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt55", "text": "Ignore plastic waste", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt56", "text": "Use reusable utensils", "isCorrect": true, "carbonImpact": -250 }
+                    ],
+                    "explanation": "Reusable utensils reduce the need for single-use plastics.",
+                    "backgroundImage": "school_7",
+                    "factTitle": "Plastic Waste Tip",
+                    "interestingFact": "A single reusable utensil can replace hundreds of disposable ones.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 1
+                }
+            ]
+        },
+        {
+            "id": "community",
+            "name": "Community",
+            "description": "Engage in sustainability efforts in your community.",
+            "backgroundImage": "community",
+            "unlocked": false,
+            "questions": [
+                {
+                    "text": "What is the best way to promote recycling in your community?",
+                    "options": [
+                        { "id": "opt57", "text": "Throw everything in the trash", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt58", "text": "Start a recycling drive", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt59", "text": "Use disposable items", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt60", "text": "Ignore recycling efforts", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Recycling drives help spread awareness and increase recycling rates.",
+                    "backgroundImage": "recycling_bg",
+                    "factTitle": "Recycling Impact",
+                    "interestingFact": "Recycling one aluminum can saves enough energy to power a TV for three hours.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "How can you encourage energy conservation in your community?",
+                    "options": [
+                        { "id": "opt61", "text": "Leave lights on all day", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt62", "text": "Use incandescent bulbs", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt63", "text": "Organize a community solar panel project", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt64", "text": "Ignore energy usage", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Solar panels reduce reliance on fossil fuels and lower carbon emissions.",
+                    "backgroundImage": "energy_saving_bg",
+                    "factTitle": "Solar Energy Facts",
+                    "interestingFact": "One solar panel can offset 1 ton of CO2 emissions annually.",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "What is the best way to reduce plastic waste in your community?",
+                    "options": [
+                        { "id": "opt65", "text": "Use single-use plastics", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt66", "text": "Throw away reusable items", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt67", "text": "Organize a plastic-free campaign", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt68", "text": "Ignore plastic waste", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Plastic-free campaigns raise awareness and reduce plastic usage.",
+                    "backgroundImage": "plastic_waste_bg",
+                    "factTitle": "Plastic Waste Facts",
+                    "interestingFact": "A single plastic bag can take up to 1,000 years to decompose.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "How can you promote water conservation in your community?",
+                    "options": [
+                        { "id": "opt69", "text": "Let water run while washing hands", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt70", "text": "Use excessive water for cleaning", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt71", "text": "Organize a rainwater harvesting project", "isCorrect": true, "carbonImpact": -200 },
+                        { "id": "opt72", "text": "Ignore water waste", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Rainwater harvesting reduces reliance on municipal water supplies.",
+                    "backgroundImage": "water_saving_bg",
+                    "factTitle": "Water Conservation",
+                    "interestingFact": "Rainwater harvesting can save up to 50% of household water usage.",
+                    "impactCategory": "Water Conservation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "What is the best way to reduce waste during community events?",
+                    "options": [
+                        { "id": "opt73", "text": "Throw away uneaten food", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt74", "text": "Use disposable items", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt75", "text": "Ignore food waste", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt76", "text": "Use reusable plates and utensils", "isCorrect": true, "carbonImpact": -250 }
+                    ],
+                    "explanation": "Reusable items reduce waste and are better for the environment.",
+                    "backgroundImage": "waste_reduction_bg",
+                    "factTitle": "Waste Reduction Tip",
+                    "interestingFact": "A single reusable plate can replace hundreds of disposable ones.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "How can you save energy during community events?",
+                    "options": [
+                        { "id": "opt77", "text": "Use incandescent bulbs", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt78", "text": "Leave lights on all night", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt79", "text": "Use energy-efficient lighting", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt80", "text": "Ignore energy-saving settings", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Energy-efficient lighting reduces energy consumption and saves money.",
+                    "backgroundImage": "energy_saving_bg",
+                    "factTitle": "Energy Saving Tip",
+                    "interestingFact": "LED bulbs use up to 75% less energy than incandescent bulbs.",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "What is the best way to reduce plastic pollution in your community?",
+                    "options": [
+                        { "id": "opt81", "text": "Use disposable plastic items", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt82", "text": "Throw away reusable items", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt83", "text": "Support bans on single-use plastics", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt84", "text": "Ignore plastic pollution", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Banning single-use plastics reduces plastic waste in oceans and landfills.",
+                    "backgroundImage": "plastic_pollution_bg",
+                    "factTitle": "Plastic Pollution",
+                    "interestingFact": "Over 8 million tons of plastic enter the oceans every year.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 2
+                }
+            ]
+        },
+        {
+            "id": "global",
+            "name": "Global",
+            "description": "Take on worldwide sustainability challenges.",
+            "backgroundImage": "global",
+            "unlocked": false,
+            "questions": [
+                {
+                    "text": "How can individuals help combat climate change globally?",
+                    "options": [
+                        { "id": "opt85", "text": "Drive alone everywhere", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt86", "text": "Use private jets", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt87", "text": "Use public transport", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt88", "text": "Ignore transportation emissions", "isCorrect": false, "carbonImpact": 75 }
+                    ],
+                    "explanation": "Public transport reduces carbon emissions and traffic congestion.",
+                    "backgroundImage": "climate_action_bg",
+                    "factTitle": "Carbon Emissions",
+                    "interestingFact": "A single bus ride can take 40 cars off the road, reducing traffic and pollution.",
+                    "impactCategory": "Transportation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "What is the best way to reduce global deforestation?",
+                    "options": [
+                        { "id": "opt89", "text": "Cut down trees for fun", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt90", "text": "Support sustainable forestry", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt91", "text": "Use paper excessively", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt92", "text": "Ignore deforestation", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Sustainable forestry ensures trees are replanted and ecosystems are preserved.",
+                    "backgroundImage": "deforestation_bg",
+                    "factTitle": "Deforestation Impact",
+                    "interestingFact": "Forests absorb 2.6 billion tons of CO2 annually, helping combat climate change.",
+                    "impactCategory": "Ecosystem Preservation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "How can you reduce global carbon emissions?",
+                    "options": [
+                        { "id": "opt93", "text": "Burn coal for energy", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt94", "text": "Switch to renewable energy", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt95", "text": "Continue using fossil fuels", "isCorrect": false, "carbonImpact": 100 },
+                        { "id": "opt96", "text": "Ignore energy sources", "isCorrect": false, "carbonImpact": 75 }
+                    ],
+                    "explanation": "Renewable energy sources like solar and wind produce no carbon emissions.",
+                    "backgroundImage": "renewable_energy_bg",
+                    "factTitle": "Renewable Energy",
+                    "interestingFact": "Switching to renewable energy can reduce carbon emissions by 80%.",
+                    "impactCategory": "Energy Conservation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "What is the best way to reduce global plastic pollution?",
+                    "options": [
+                        { "id": "opt97", "text": "Use disposable plastic items", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt98", "text": "Support bans on single-use plastics", "isCorrect": true, "carbonImpact": -200 },
+                        { "id": "opt99", "text": "Throw away reusable items", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt100", "text": "Ignore plastic pollution", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Banning single-use plastics reduces plastic waste in oceans and landfills.",
+                    "backgroundImage": "plastic_pollution_bg",
+                    "factTitle": "Plastic Pollution",
+                    "interestingFact": "Over 8 million tons of plastic enter the oceans every year.",
+                    "impactCategory": "Waste Reduction",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "How can you help protect endangered species globally?",
+                    "options": [
+                        { "id": "opt101", "text": "Hunt animals for fun", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt102", "text": "Support wildlife conservation programs", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt103", "text": "Destroy natural habitats", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt104", "text": "Ignore endangered species", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Conservation programs help protect endangered species and their habitats.",
+                    "backgroundImage": "wildlife_conservation_bg",
+                    "factTitle": "Wildlife Conservation",
+                    "interestingFact": "Over 1 million species are at risk of extinction due to human activities.",
+                    "impactCategory": "Ecosystem Preservation",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "What is the best way to reduce global air pollution?",
+                    "options": [
+                        { "id": "opt105", "text": "Burn trash in open areas", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt106", "text": "Plant more trees", "isCorrect": true, "carbonImpact": -300 },
+                        { "id": "opt107", "text": "Use diesel vehicles", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt108", "text": "Ignore air pollution", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Trees absorb CO2 and release oxygen, improving air quality.",
+                    "backgroundImage": "air_pollution_bg",
+                    "factTitle": "Air Pollution Facts",
+                    "interestingFact": "One tree can absorb up to 48 pounds of CO2 per year.",
+                    "impactCategory": "Air Quality",
+                    "difficultyLevel": 2
+                },
+                {
+                    "text": "How can you reduce global water pollution?",
+                    "options": [
+                        { "id": "opt109", "text": "Dump chemicals into rivers", "isCorrect": false, "carbonImpact": 75 },
+                        { "id": "opt110", "text": "Use excessive fertilizers", "isCorrect": false, "carbonImpact": 50 },
+                        { "id": "opt111", "text": "Avoid dumping waste into water bodies", "isCorrect": true, "carbonImpact": -250 },
+                        { "id": "opt112", "text": "Ignore water pollution", "isCorrect": false, "carbonImpact": 100 }
+                    ],
+                    "explanation": "Preventing waste dumping protects aquatic ecosystems and drinking water.",
+                    "backgroundImage": "water_pollution_bg",
+                    "factTitle": "Water Pollution Facts",
+                    "interestingFact": "Over 80% of wastewater is released into the environment untreated.",
+                    "impactCategory": "Water Conservation",
+                    "difficultyLevel": 2
+                }
+            ]
+        }
+    ]
+}
